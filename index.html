@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JLPlayer - Reprodutor de vídeos</title>
+
+    <!-- Link style jlplayer.css -->
+    <link rel="stylesheet" href="jlplayer.css">
+
+    <style>
+        *, *::before, *::after{margin: 0; padding: 0;}
+        .video-container{width: 500px;}
+    </style>
+
+</head>
+
+<body>
+
+    <div class="video-container">
+
+        <!-- Chamar elemento vídeo com class jlplayer-video -->
+        <video preload="none" class="jlplayer-video" poster="capa-do-video.jpg">
+            <source src="video.mp4" type="video/mp4">
+            <track kind="captions" src="legenda.vtt" default>
+        </video>
+
+    </div>
+
+    <!-- Inclusão jlplayer -->
+    <script src="jlplayer.js" async></script>
+
+</body>
+
+</html>
