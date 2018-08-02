@@ -2,7 +2,6 @@
 Player de vídeo personalizado em HTML5 e Javascript
 
 # Inclua esta linha na <head> do seu documento
-
 <link rel="stylesheet" href="https://www.seusite.com/jlplayer/jlplayer.min.css">
 
 # Inclua esta linha antes de fechar o <body>
